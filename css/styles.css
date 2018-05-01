@@ -57,3 +57,7 @@ body {
     left: 0;
     min-height: 300px;
 }
+
+#reserve .btn-success, #reserve .btn-danger {
+    color: #fff;
+}
