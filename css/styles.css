@@ -61,3 +61,9 @@ body {
 #reserve .btn-success, #reserve .btn-danger {
     color: #fff;
 }
+
+#carouselButton {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+}
