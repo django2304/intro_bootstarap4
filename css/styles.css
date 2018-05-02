@@ -25,8 +25,18 @@ address {
   color: #0f0f0f; }
 
 body {
-  padding: 50px 0px 0px 0px;
+  padding: 50px 0px 0px 0px !important;
   z-index: 0; }
+
+.modal-header {
+  background: #512DA8;
+  color: floralwhite; }
+
+.modal-body {
+  background: #9575CD; }
+
+.modal-footer {
+  background: #9575CD; }
 
 .navbar-inverse {
   background-color: #512DA8; }
@@ -46,6 +56,9 @@ body {
       top: 0;
       left: 0;
       min-height: 300px; }
+
+.modal-content .modal-header .close {
+  color: floralwhite; }
 
 #carouselButton {
   right: 0px;
